@@ -1,0 +1,29 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "test": "vitest",
+    "coverage": "vitest run --coverage",
+    "cypress:open": "cypress open"
+  },
+  "devDependencies": {
+    "@nuxt/test-utils": "^3.2.0",
+    "@vitejs/plugin-vue": "^4.0.0",
+    "@vitest/coverage-c8": "^0.28.5",
+    "@vitest/coverage-istanbul": "^0.28.5",
+    "@vue/test-utils": "^2.2.10",
+    "cypress": "^12.6.0",
+    "jsdom": "^21.1.0",
+    "nuxt": "^3.1.2",
+    "pug": "^3.0.2",
+    "pug-plain-loader": "^1.1.0",
+    "vitest": "^0.28.5"
+  },
+  "dependencies": {
+    "sass": "^1.58.3"
+  }
+}
